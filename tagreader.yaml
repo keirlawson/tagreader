@@ -5,6 +5,8 @@ wifi:
 #      password: 'REPLACEME'      # Enter your wifi password here. Example: `password: 'abcde123456'`
   ap:
     ssid: ${name}
+  power_save_mode: LIGHT
+  post_connect_roaming: false
 
 # Enable the captive portal for inital WiFi setup
 captive_portal:
